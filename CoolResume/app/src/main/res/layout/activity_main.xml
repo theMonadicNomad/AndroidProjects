@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NagaCharan"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/charan"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="170dp"
+        tools:srcCompat="@drawable/charan" />
+
+    <Button
+        android:id="@+id/workHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="10dp"
+        android:text="Work History"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Charan"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email Charan"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+
+
+</LinearLayout>
